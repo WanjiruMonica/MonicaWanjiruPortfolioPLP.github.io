@@ -5,11 +5,100 @@
     
 }
 
+body{
+    background-color: beige
+}   
 
-.main{
+.start{
     width: 100%;
-    height: 100vh;
-   background-color: #f0f0f0;
-    background-position: center;
-    background-size:cover;
+    text-align: center;
+    font-family: sans-serif;
+    background-color: beige;
+}
+
+.nav{
+    float: right;
+    display: flex;
+    margin: auto;
+    padding: 4px 0;
+    word-spacing: 50px;
+    justify-content: space-between;
+}
+.socials{
+    float: left;
+    display: flex;
+    margin: auto;
+    padding: 4px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 20px;
+    font-weight: bolder;
+}
+
+.logo{
+    float: left;
+    width: 50%;
+}
+
+
+.myskills{
+    background-color: beige;
+}
+
+
+.myprojects{
+    display: flex;
+    flex-direction: row;
+}
+
+.left-panel{
+    flex: 1;
+    border: 1px solid black;
+    background-color: beige;
+}
+
+.right-panel{
+    flex: 1;
+    border: 1px solid black;
+    background-color: beige;
+}
+
+.footer{
+    background-color: beige;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.contact-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    font-size: 16px;
+    border-top: 1px solid #ccc; /* optional styling */
+}
+
+.contact-left,
+.contact-center,
+.contact-right {
+    flex: 1;
+    text-align: center;
+}
+
+.contact-left {
+    text-align: left;
+}
+
+.contact-right {
+    text-align: right;
+}
+
+.copyright {
+    text-align: center;
 }
